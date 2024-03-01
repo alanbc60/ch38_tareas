@@ -1,0 +1,17 @@
+Ejercicio 1:
+
+Desea crear una página que diga "Hola nombre". Debajo del texto habrá un botón que dice "¡Cambiar el
+nombre!". Cuando alguien hace clic en el botón, debería aparecer un mensaje y preguntar: "¿Cuál es tu
+nombre?". La persona puede ingresar un nombre en el aviso y el nuevo texto de la página debe decir
+"Hola {nombre ingresado}".
+
+Asegúrese de usar la función prompt() incorporada para obtener el nombre.
+
+Usa la API DOM para actualizar el nombre.
+
+Usa estilos con Bootstrap.
+
+Agrégalo en el menú proyectos de la aplicación Ninja con bootstrap.
+
+
+// el JS dentro del html se llama interpolacion
