@@ -34,9 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             document.querySelector('.toast').classList.remove('show');
             toastBody.textContent = '';
-
-            input.value = '';
-
         }, 3000);
     }
 
