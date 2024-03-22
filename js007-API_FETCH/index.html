@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <main>
+        <section class="container-fluid d-flex justify-content-center align-items-center flex-column bg-secondary">
+
+            <div class="text-center">
+                <h1 class="text-center">API FETCH</h1>
+                <button id="btn" class="btn btn-primary mt-3">Cargar usuarios</button>
+                <div class="contenedorFecha m-3"></div>
+            </div>
+
+            <!-- Crear una tabla -->
+            <div class="container-fluid text-center mt-5 bg-secondary" id="contenedor_tabla_usuarios">
+                
+                <table class="table table-bordered border-dark table-hover mx-auto" id="table_usuarios">
+                    <thead id="theadUsers">
+                        <!-- <tr>
+                            <th>ID</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                        </tr> -->
+                    </thead>
+                    <tbody id="tbodyUsers"></tbody>
+                </table>
+            </div>
+
+            <div class="position-fixed top-0 end-0 p-3" style="z-index: 11">
+                <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                      <div class="toast-body"></div>
+                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>        
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>
